@@ -1,0 +1,118 @@
+/* GENERAL */
+* { box-sizing: border-box;}
+html, body { height: 100%; }
+
+body {
+    background-color: #151e33;
+    width: 100%;
+    height: 1200px;
+    color: #fff;
+    font-family: "helvetica neue", "helvetica";
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #f089a0;
+    text-decoration: none;
+}
+
+/* CREATE */
+.create {
+    background-color: #1b263e;
+    width: 100%;
+    max-width: 785px;
+    min-width: 320px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 3rem;    
+}
+
+
+/* LOGIN */
+
+.login {
+    text-align: right;
+    margin: 0;
+}
+
+
+/* CONTENT */
+
+.content {
+    margin-top: 3.5rem;
+}
+
+.content h1 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content p {
+    text-align: center;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* FORM */
+
+.form {
+    width: 385px;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: .3rem;
+}
+
+.form input {
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    width: 384px;
+    padding: 1.5rem;
+    margin-bottom: 1.8rem;
+    border: none;
+    display: block;
+}
+
+.form input[type="text"], .form input[type="email"], .form input[type="password"] {
+    border: 1px solid #495e8d;
+    border-radius: 5px;
+}
+
+.form input[type="submit"] {
+    background-color: #e3627f;
+    font-size: bold;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+/* LEGAL */
+
+.legal {
+    background-color: #202e4e;
+    width: 583px;
+    height: 111px;
+    border-radius: 10px;
+    text-align: center;
+    color: #8f9ab2;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
